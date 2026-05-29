@@ -112,7 +112,23 @@ Apply the SQL migrations in `supabase/migrations/` to your Supabase project (via
 
 ## Team & contributing
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for who owns which part of the codebase and the team's Git workflow (branching, commit order, and pull requests).
+This guide explains **who owns what**, the **order we commit in**, and the **exact Git steps** each member follows so everyone's work shows up as their own commits in the repo.
+
+> Goal: the lecturer (added as a collaborator) can open the repo and clearly see commits from every team member.
+
+---
+
+## 1. Team & ownership
+
+| # | Member              | GitHub username | Owns | Main files / folders |
+|---|---------------------|----|------|----------------------|
+| Lead | `Abubakarr Sawaneh` | `sawanehabubakarr ` | Project setup, structure, routing, auth, shared code | `App.tsx`, `main.tsx`, `index.html`, `src/contexts/`, `src/components/layout/Navbar.tsx`, `src/components/ui/` (shared), `README.md`, config files |
+| 1 | `Alie Jinnah Musa`  | `Jinnah674` | **Admin pages** | `src/pages/admin/`, `src/components/layout/AdminLayout.tsx`, `src/components/layout/AdminSidebar.tsx` |
+| 2 | `Abdallah Bah`      | `Abdallah-Ba-001` | **Dashboard (user) pages** | `src/pages/dashboard/`, `src/components/layout/DashboardLayout.tsx`, `src/components/layout/UserSidebar.tsx` |
+| 3 | `Ibrahim Jalloh`    | `ibrahimjalloh10-byte` | **Analyst pages** | `src/pages/analyst/`, `src/components/layout/AnalystLayout.tsx`, `src/components/layout/AnalystSidebar.tsx` |
+| 4 | `Momodu Kamara`     | `Momodu111` | **Database** | `supabase/migrations/`, `supabase/config.toml`, `src/integrations/supabase/` |
+
+---
 
 ## License
 
