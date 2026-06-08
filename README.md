@@ -72,7 +72,7 @@ Requires **Node.js 18+** and npm.
 ```sh
 # 1. Clone the repository
 git clone https://github.com/sawanehabubakarr/G4_Mobile_Money_Fraud-Alert_System.git
-cd securepay-alerts
+cd fraudshield
 
 # 2. Install dependencies
 npm install
